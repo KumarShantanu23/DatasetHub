@@ -1,0 +1,4 @@
+id,name,rows,cols,updated_at
+1,"Iris (sample)",150,5,2025-09-01
+2,"Titanic (sample)",891,12,2025-09-01
+3,"MNIST (sample)",70000,784,2025-09-01
