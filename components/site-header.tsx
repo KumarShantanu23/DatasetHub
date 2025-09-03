@@ -68,11 +68,11 @@ export function SiteHeader() {
           <button
             aria-label="Toggle theme"
             onClick={toggleTheme}
-            className="relative h-9 w-16 rounded-full glass flex items-center px-1 transition-colors hover:cursor-pointer"
+            className="relative h-9 w-16 rounded-full glass flex items-center px-1 transition-colors hover:cursor-pointer border border-white/10 neon-glow-blue"
           >
             <motion.span
               layout
-              className="h-7 w-7 rounded-full bg-[var(--neon-blue)]"
+              className="h-7 w-7 rounded-full bg-[var(--neon-blue)] "
               initial={false}
               animate={{
                 x: theme === "dark" ? 7 : 35,
